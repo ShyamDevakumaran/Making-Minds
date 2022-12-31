@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+
+* {
+  padding: 0%;
+  margin: auto;
+
+}
+
+:root {
+  --black: #000;
+  --white: #ffffff;
+  --bgcolor: #026675;
+
+}
+
+/* NAVBAR */
+.navbar {
+  /* background-image: linear-gradient(to right,#0869c4,#5f068b ) !important;  */
+  color: black !important;
+  padding: 3px !important;
+  position: sticky;
+  top: 0%;
+  z-index: 10;
+  background-color: white;
+}
+
+.container-fluid {
+  padding: none;
+
+}
+
+.container-fluid .navbar-brand {
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.navbar-nav li a {
+  color: black !important;
+  font-weight: 500;
+}
+
+/* NAVBAR */
+
+
+
+
+/* FORM */
+
+.container{
+  background-color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 20px  20px;
+  color: #000;
+  font-size: 18px;
+}
+
+.container .box{
+  text-align: center;
+  margin: 10px;
+  padding: 20px 20px;
+  background-color: #fff;
+  color: #000;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box h3{
+  
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+
+.box textarea , .box input{
+  border: 0px solid #000;
+  border-radius: 10px;
+  margin: 10px 1px0;
+  padding: 15px;
+  outline: none;
+  background: #eee;
+  
+  font-size: 16px;
+}
+form button{
+  padding: 10px 0;
+  background-color: #F9A826;
+  color: #000;
+  font-size: 18px;
+  border: 1px solid  #F9A826;
+  outline: none;
+  cursor: pointer;
+  width: 100px;
+  margin: 10px auto 0;
+  border-radius: 12px;
+}
+
+
+/* FORM */
+
+
+
+
+
+/*CONTACT*/
+#contact{
+    color: #000;
+    margin: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  #contact h2{
+    margin: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Andada Pro', serif;
+    border-bottom: 0px solid #000;
+  }
+  
+  .items{
+    display: flex;
+    direction: row;
+  }
+  .items img{
+    height: 40px;
+    width: 40px;
+  }
+  /*//CONTACT*/
+  
+  
+  
+  /* FOOTER */
+  
+  .footer-bottom{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-bottom p{
+     color: #000;
+     font-size: 14px;
+     word-spacing: 2px;
+     text-transform: capitalize;
+  }
+  .footer-bottom span{
+    color: rgb(166, 8, 197) !important;
+   
+     text-transform: uppercase;
+     font-family: 'Andada Pro', serif;
+     font-weight: 100;
+  }
+  
+  
+  /* //FOOTER */
